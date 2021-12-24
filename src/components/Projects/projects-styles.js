@@ -1,11 +1,11 @@
 import { createUseStyles } from "react-jss";
-import { colors } from "../../styleguide";
+import { colors, bp } from "../../styleguide";
 
 const useStyles = createUseStyles({
   projects: {},
+  projectsList: {},
   project: {
-    display: "flex",
-    padding: "30px 0",
+    padding: 30,
     boxShadow: `0 0 5px ${colors.grey}`,
     backgroundColor: colors.white,
     "&:not(:last-of-type)": {
@@ -13,15 +13,29 @@ const useStyles = createUseStyles({
     },
   },
   projectImg: {
-    maxWidth: "40%",
-    margin: "0 30px",
+    display: "block",
+    marginBottom: 30,
   },
+  projectContent: {},
   projectDescription: {
     marginBottom: 20,
   },
   projectSubheading: {
     fontWeight: 600,
     fontStyle: "italic",
+  },
+  projectTechnologies: {
+    margin: "0 -5px 20px",
+    "& li": {
+      display: "inline-block",
+      margin: [5, 5],
+      padding: [5, 10],
+      backgroundColor: colors.accent3,
+      color: colors.white,
+    },
+    "& li::before": {
+      display: "none",
+    },
   },
   projectLink: {
     display: "inline-flex",
@@ -44,12 +58,24 @@ const useStyles = createUseStyles({
 
     "& svg": {
       marginLeft: 5,
-      color: colors.accent1,
       transition: "all 0.3s",
     },
-
-    "&:hover svg": {
-      color: colors.white,
+  },
+  [bp.big]: {
+    projectsList: {
+      width: "80%",
+      margin: "0 auto",
+    },
+    project: {
+      display: "flex",
+    },
+    projectImg: {
+      alignSelf: "flex-start",
+      width: "40%",
+    },
+    projectContent: {
+      width: "60%",
+      paddingLeft: 30,
     },
   },
 });
