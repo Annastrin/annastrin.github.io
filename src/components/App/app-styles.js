@@ -17,8 +17,7 @@ const useStyles = createUseStyles({
     },
     section: {
       display: "block",
-      marginBottom: 60,
-      padding: "0 25px",
+      padding: "60px 25px 0",
 
       "& h2": {
         textAlign: "center",
@@ -41,7 +40,6 @@ const useStyles = createUseStyles({
     h2: {
       fontSize: 32,
       marginBottom: 30,
-      color: colors.accent1,
     },
     h3: {
       fontSize: 26,
@@ -80,8 +78,11 @@ const useStyles = createUseStyles({
     },
     img: {
       display: "block",
-      maxWidth: "100%",
+      width: "100%",
     },
+  },
+  app: {
+    paddingBottom: 100,
   },
 });
 

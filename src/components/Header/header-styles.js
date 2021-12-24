@@ -24,7 +24,7 @@ const useStyles = createUseStyles({
     transition: "all 0.3s",
 
     "&:hover": {
-      boxShadow: `0 3px ${colors.accent3}`,
+      boxShadow: `0 3px ${colors.accent1}`,
     },
   },
 });
