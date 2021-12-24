@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.6960e329.js",
+    "main.js": "/portfolio/static/js/main.e9dad4e5.js",
     "static/js/787.55786037.chunk.js": "/portfolio/static/js/787.55786037.chunk.js",
     "static/media/todo-app.png": "/portfolio/static/media/todo-app.0aeefa4262a8ae005057.png",
     "static/media/job-listings.png": "/portfolio/static/media/job-listings.57facf52826e0f41c45b.png",
     "static/media/tip-calculator.png": "/portfolio/static/media/tip-calculator.79bd486356e1a3752139.png",
     "index.html": "/portfolio/index.html",
     "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.6960e329.js.map": "/portfolio/static/js/main.6960e329.js.map",
+    "main.e9dad4e5.js.map": "/portfolio/static/js/main.e9dad4e5.js.map",
     "787.55786037.chunk.js.map": "/portfolio/static/js/787.55786037.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.6960e329.js"
+    "static/js/main.e9dad4e5.js"
   ]
 }
