@@ -15,7 +15,7 @@ function About() {
             <li>JavaScript</li>
             <li>React</li>
           </ul>
-          <p>But I also used in my projects some Redux, TypeScript, Vue.</p>
+          <p>But I also used some Redux, TypeScript, Vue.</p>
         </div>
         <div className={classes.aboutSection}>
           <h3>Education</h3>
