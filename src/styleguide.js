@@ -15,3 +15,7 @@ export const colors = {
   white: "#ffffff",
   grey: "#bdbdbd",
 };
+
+export const bp = {
+  big: "@media screen and (min-width: 920px)",
+};
