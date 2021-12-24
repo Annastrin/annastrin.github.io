@@ -13,8 +13,8 @@ function Header() {
         <a href="#projects" className={classes.navLink}>
           Projects
         </a>
-        <a href="#contact" className={classes.navLink}>
-          Contact
+        <a href="#contacts" className={classes.navLink}>
+          Contacts
         </a>
       </nav>
     </header>
