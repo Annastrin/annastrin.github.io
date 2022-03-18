@@ -1,9 +1,52 @@
 import { createUseStyles } from "react-jss";
 import { fonts, colors } from "../../styleguide";
+import Gwendolyn from "../../fonts/Gwendolyn/Gwendolyn-Bold.ttf";
+import MerriweatherItalic from "../../fonts/Merriweather/Merriweather-Italic.ttf";
+import MerriweatherBoldItalic from "../../fonts/Merriweather/Merriweather-BoldItalic.ttf";
+import Raleway from "../../fonts/Raleway/Raleway-Regular.ttf";
+import RalewayItalic from "../../fonts/Raleway/Raleway-Italic.ttf";
+import RalewaySemiBold from "../../fonts/Raleway/Raleway-SemiBold.ttf";
+import RalewaySemiBoldItalic from "../../fonts/Raleway/Raleway-SemiBoldItalic.ttf";
 
 const useStyles = createUseStyles({
-  "@import":
-    "url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@700&family=Merriweather:ital,wght@1,400;1,700&family=Raleway:ital,wght@0,400;0,600;1,400;1,600&display=swap')",
+  "@font-face": [
+    {
+      fontFamily: "Gwendolyn",
+      src: `url(${Gwendolyn}) format('truetype')`,
+      fontWeight: "bold",
+    },
+    {
+      fontFamily: "Merriweather",
+      src: `url(${MerriweatherItalic}) format('truetype')`,
+      fontStyle: "italic",
+    },
+    {
+      fontFamily: "Merriweather",
+      src: `url(${MerriweatherBoldItalic}) format('truetype')`,
+      fontWeight: "bold",
+      fontStyle: "italic",
+    },
+    {
+      fontFamily: "Raleway",
+      src: `url(${Raleway}) format('truetype')`,
+    },
+    {
+      fontFamily: "Raleway",
+      src: `url(${RalewayItalic}) format('truetype')`,
+      fontStyle: "italic",
+    },
+    {
+      fontFamily: "Raleway",
+      src: `url(${RalewaySemiBold}) format('truetype')`,
+      fontWeight: 600,
+    },
+    {
+      fontFamily: "Raleway",
+      src: `url(${RalewaySemiBoldItalic}) format('truetype')`,
+      fontWeight: 600,
+      fontStyle: "italic",
+    },
+  ],
   "@global": {
     "*": {
       boxSizing: "border-box",
