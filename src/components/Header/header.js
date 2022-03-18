@@ -5,7 +5,9 @@ function Header() {
 
   return (
     <header className={classes.header}>
-      <h1 className={classes.logo}>Anastasia Nesteryukova</h1>
+      <a href="./">
+        <h1 className={classes.logo}>Anastasia Nesteryukova</h1>
+      </a>
       <nav className={classes.nav}>
         <a href="#about" className={classes.navLink}>
           About
