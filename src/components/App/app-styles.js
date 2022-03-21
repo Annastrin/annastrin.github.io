@@ -122,6 +122,7 @@ const useStyles = createUseStyles({
     img: {
       display: "block",
       width: "100%",
+      height: "auto",
     },
   },
   app: {
