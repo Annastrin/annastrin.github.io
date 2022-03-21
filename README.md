@@ -8,3 +8,4 @@ This is a developer's portfolio containing information about my skills and exper
 
 - React
 - React-JSS
+- Prismic

@@ -6,8 +6,8 @@ function Projects() {
   const [prismicProjects] = useAllPrismicDocumentsByType("project", {
     orderings: ["my.project.project_creation_date desc"],
   });
-  console.log(prismicProjects && prismicProjects);
   const classes = useStyles();
+
   return (
     <section className={classes.projects} id="projects">
       <h2>Projects</h2>
