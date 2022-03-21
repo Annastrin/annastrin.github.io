@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.b21e1f98.js",
+    "main.js": "/portfolio/static/js/main.0046932c.js",
     "static/js/787.55786037.chunk.js": "/portfolio/static/js/787.55786037.chunk.js",
-    "static/media/todo-app.png": "/portfolio/static/media/todo-app.0aeefa4262a8ae005057.png",
     "static/media/Gwendolyn-Bold.ttf": "/portfolio/static/media/Gwendolyn-Bold.c97be72deb169c08be33.ttf",
     "static/media/Raleway-Regular.ttf": "/portfolio/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
     "static/media/Raleway-SemiBold.ttf": "/portfolio/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
@@ -10,13 +9,11 @@
     "static/media/Raleway-Italic.ttf": "/portfolio/static/media/Raleway-Italic.2a3303d3281dbe80bec6.ttf",
     "static/media/Merriweather-BoldItalic.ttf": "/portfolio/static/media/Merriweather-BoldItalic.16252c125b2ba7eaf70a.ttf",
     "static/media/Merriweather-Italic.ttf": "/portfolio/static/media/Merriweather-Italic.c011994c363b810ae1f6.ttf",
-    "static/media/job-listings.png": "/portfolio/static/media/job-listings.57facf52826e0f41c45b.png",
-    "static/media/tip-calculator.png": "/portfolio/static/media/tip-calculator.79bd486356e1a3752139.png",
     "index.html": "/portfolio/index.html",
-    "main.b21e1f98.js.map": "/portfolio/static/js/main.b21e1f98.js.map",
+    "main.0046932c.js.map": "/portfolio/static/js/main.0046932c.js.map",
     "787.55786037.chunk.js.map": "/portfolio/static/js/787.55786037.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b21e1f98.js"
+    "static/js/main.0046932c.js"
   ]
 }
