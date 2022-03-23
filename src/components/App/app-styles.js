@@ -1,48 +1,41 @@
 import { createUseStyles } from "react-jss";
 import { fonts, colors } from "../../styleguide";
-import Gwendolyn from "../../fonts/Gwendolyn/Gwendolyn-Bold.ttf";
-import MerriweatherItalic from "../../fonts/Merriweather/Merriweather-Italic.ttf";
-import MerriweatherBoldItalic from "../../fonts/Merriweather/Merriweather-BoldItalic.ttf";
-import Raleway from "../../fonts/Raleway/Raleway-Regular.ttf";
-import RalewayItalic from "../../fonts/Raleway/Raleway-Italic.ttf";
-import RalewaySemiBold from "../../fonts/Raleway/Raleway-SemiBold.ttf";
-import RalewaySemiBoldItalic from "../../fonts/Raleway/Raleway-SemiBoldItalic.ttf";
 
 const useStyles = createUseStyles({
   "@font-face": [
     {
       fontFamily: "Gwendolyn",
-      src: `url(${Gwendolyn}) format('truetype')`,
-      fontWeight: "bold",
+      src: "url(https://fonts.gstatic.com/s/gwendolyn/v3/qkBSXvoO_M3CSss-d7emWLtfnyTG.woff2) format('woff2')",
+      fontWeight: 700,
     },
     {
       fontFamily: "Merriweather",
-      src: `url(${MerriweatherItalic}) format('truetype')`,
+      src: "url(https://fonts.gstatic.com/s/merriweather/v28/u-4m0qyriQwlOrhSvowK_l5-eRZOf-I.woff2) format('woff2')",
       fontStyle: "italic",
     },
     {
       fontFamily: "Merriweather",
-      src: `url(${MerriweatherBoldItalic}) format('truetype')`,
+      src: "url(https://fonts.gstatic.com/s/merriweather/v28/u-4l0qyriQwlOrhSvowK_l5-eR71Wvf4jvw.woff2) format('woff2')",
       fontWeight: "bold",
       fontStyle: "italic",
     },
     {
       fontFamily: "Raleway",
-      src: `url(${Raleway}) format('truetype')`,
+      src: "url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2')",
     },
     {
       fontFamily: "Raleway",
-      src: `url(${RalewayItalic}) format('truetype')`,
+      src: "url(https://fonts.gstatic.com/s/raleway/v26/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDrMfIA.woff2) format('woff2')",
       fontStyle: "italic",
     },
     {
       fontFamily: "Raleway",
-      src: `url(${RalewaySemiBold}) format('truetype')`,
+      src: "url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrE.woff2) format('woff2')",
       fontWeight: 600,
     },
     {
       fontFamily: "Raleway",
-      src: `url(${RalewaySemiBoldItalic}) format('truetype')`,
+      src: "url(https://fonts.gstatic.com/s/raleway/v26/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4bbLDrMfIA.woff2) format('woff2')",
       fontWeight: 600,
       fontStyle: "italic",
     },
