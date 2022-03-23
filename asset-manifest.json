@@ -1,19 +1,12 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.9e131518.js",
-    "static/js/787.55786037.chunk.js": "/portfolio/static/js/787.55786037.chunk.js",
-    "static/media/Gwendolyn-Bold.ttf": "/portfolio/static/media/Gwendolyn-Bold.c97be72deb169c08be33.ttf",
-    "static/media/Raleway-Regular.ttf": "/portfolio/static/media/Raleway-Regular.9ade142e81dd8d55cd32.ttf",
-    "static/media/Raleway-SemiBold.ttf": "/portfolio/static/media/Raleway-SemiBold.243af299ad3631bfc369.ttf",
-    "static/media/Raleway-SemiBoldItalic.ttf": "/portfolio/static/media/Raleway-SemiBoldItalic.3341b121b13fa2052f8c.ttf",
-    "static/media/Raleway-Italic.ttf": "/portfolio/static/media/Raleway-Italic.2a3303d3281dbe80bec6.ttf",
-    "static/media/Merriweather-BoldItalic.ttf": "/portfolio/static/media/Merriweather-BoldItalic.16252c125b2ba7eaf70a.ttf",
-    "static/media/Merriweather-Italic.ttf": "/portfolio/static/media/Merriweather-Italic.c011994c363b810ae1f6.ttf",
+    "main.js": "/portfolio/static/js/main.993b483a.js",
+    "static/js/787.c7592640.chunk.js": "/portfolio/static/js/787.c7592640.chunk.js",
     "index.html": "/portfolio/index.html",
-    "main.9e131518.js.map": "/portfolio/static/js/main.9e131518.js.map",
-    "787.55786037.chunk.js.map": "/portfolio/static/js/787.55786037.chunk.js.map"
+    "main.993b483a.js.map": "/portfolio/static/js/main.993b483a.js.map",
+    "787.c7592640.chunk.js.map": "/portfolio/static/js/787.c7592640.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.9e131518.js"
+    "static/js/main.993b483a.js"
   ]
 }
