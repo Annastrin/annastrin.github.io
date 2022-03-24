@@ -1,5 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
+import { ExternalLink } from "../ExternalLink";
 import { useStyles } from "./contacts-styles";
 
 function Contacts() {
@@ -9,14 +10,10 @@ function Contacts() {
       <h2>Contacts</h2>
       <p>You can get in touch with me via:</p>
       <div className={classes.socials}>
-        <a
-          href="https://www.linkedin.com/in/anastasia-nesteryukova/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <ExternalLink href="https://www.linkedin.com/in/anastasia-nesteryukova/">
           Linkedin
           <FaLinkedin />
-        </a>
+        </ExternalLink>
         <a href="mailto:anastasia.nesteryukova@gmail.com">
           <FiMail />
           Email
