@@ -1,7 +1,7 @@
 import { createUseStyles } from "react-jss";
 import { fonts, colors } from "../../styleguide";
 
-const useStyles = createUseStyles({
+export const useStyles = createUseStyles({
   header: {
     minHeight: 60,
     padding: "40px 0",
@@ -28,5 +28,3 @@ const useStyles = createUseStyles({
     },
   },
 });
-
-export default useStyles;

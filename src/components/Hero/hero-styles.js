@@ -1,7 +1,7 @@
 import { createUseStyles } from "react-jss";
 import { colors } from "../../styleguide";
 
-const useStyles = createUseStyles({
+export const useStyles = createUseStyles({
   hero: {
     display: "flex",
     justifyContent: "center",
@@ -10,17 +10,15 @@ const useStyles = createUseStyles({
     padding: 30,
     backgroundColor: colors.accent1,
     backgroundImage: `linear-gradient(to right, ${colors.accent1}, ${colors.accent2})`,
-    color: colors.white,
+    color: colors.secondaryText,
     fontSize: 20,
   },
-  heroContent: {
+  content: {
     textAlign: "center",
   },
-  heroTitle: {
+  title: {
     marginTop: 0,
     marginBottom: 30,
-    color: colors.white,
+    color: colors.secondaryText,
   },
 });
-
-export default useStyles;

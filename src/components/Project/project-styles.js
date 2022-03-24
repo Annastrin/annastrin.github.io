@@ -1,43 +1,43 @@
 import { createUseStyles } from "react-jss";
-import { colors, bp } from "../../styleguide";
+import { colors, breakpoints } from "../../styleguide";
 
-const useStyles = createUseStyles({
+export const useStyles = createUseStyles({
   project: {
     padding: 30,
-    boxShadow: `0 0 5px ${colors.grey}`,
-    backgroundColor: colors.white,
+    boxShadow: `0 0 5px ${colors.boxShadow}`,
+    backgroundColor: colors.secondaryBackground,
     "&:not(:last-of-type)": {
       marginBottom: 30,
     },
   },
-  projectContent: {}, //it's needed for usage below
-  projectImg: {
+  image: {
     display: "block",
     marginBottom: 30,
     fontSize: 0,
     color: "transparent",
   },
-  projectDescription: {
+  description: {
     marginBottom: 20,
   },
-  projectSubheading: {
+  subheading: {
     fontWeight: 600,
     fontStyle: "italic",
   },
-  projectTechnologies: {
+  technologies: {
     margin: "0 -5px 20px",
     "& li": {
       display: "inline-block",
       margin: [5, 5],
       padding: [5, 10],
       backgroundColor: colors.accent3,
-      color: colors.white,
+      color: colors.secondaryText,
+      fontWeight: 600,
     },
     "& li::before": {
       display: "none",
     },
   },
-  projectLink: {
+  link: {
     display: "inline-flex",
     alignItems: "center",
     padding: "5px 10px",
@@ -53,7 +53,7 @@ const useStyles = createUseStyles({
 
     "&:hover": {
       backgroundColor: colors.accent1,
-      color: colors.white,
+      color: colors.secondaryText,
     },
 
     "& svg": {
@@ -61,19 +61,18 @@ const useStyles = createUseStyles({
       transition: "all 0.3s",
     },
   },
-  [bp.big]: {
+  content: {}, //it's needed to use in breakpoint below
+  [breakpoints.big]: {
     project: {
       display: "flex",
     },
-    projectImg: {
+    image: {
       alignSelf: "flex-start",
       width: "40%",
     },
-    projectContent: {
+    content: {
       width: "60%",
       paddingLeft: 30,
     },
   },
 });
-
-export default useStyles;

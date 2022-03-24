@@ -1,15 +1,15 @@
 import { useAllPrismicDocumentsByType } from "@prismicio/react";
 import { Project } from "../Project";
-import useStyles from "./projects-styles";
+import { useStyles } from "./projects-list-styles";
 
-function Projects() {
+function ProjectsList() {
   const [prismicProjects] = useAllPrismicDocumentsByType("project", {
     orderings: ["my.project.project_creation_date desc"],
   });
   const classes = useStyles();
 
   return (
-    <section className={classes.projects} id="projects">
+    <section id="projects">
       <h2>Projects</h2>
       <div className={classes.projectsList}>
         {prismicProjects &&
@@ -29,4 +29,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectsList;

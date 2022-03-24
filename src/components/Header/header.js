@@ -1,4 +1,4 @@
-import useStyles from "./header-styles";
+import { useStyles } from "./header-styles";
 
 function Header() {
   const classes = useStyles();

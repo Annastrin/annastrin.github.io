@@ -1,43 +1,50 @@
 import { createUseStyles } from "react-jss";
 import { fonts, colors } from "../../styleguide";
 
-const useStyles = createUseStyles({
+export const useStyles = createUseStyles({
   "@font-face": [
     {
       fontFamily: "Gwendolyn",
       src: "url(https://fonts.gstatic.com/s/gwendolyn/v3/qkBSXvoO_M3CSss-d7emWLtfnyTG.woff2) format('woff2')",
       fontWeight: 700,
+      fontDisplay: "swap",
     },
     {
       fontFamily: "Merriweather",
       src: "url(https://fonts.gstatic.com/s/merriweather/v28/u-4m0qyriQwlOrhSvowK_l5-eRZOf-I.woff2) format('woff2')",
       fontStyle: "italic",
+      fontDisplay: "swap",
     },
     {
       fontFamily: "Merriweather",
       src: "url(https://fonts.gstatic.com/s/merriweather/v28/u-4l0qyriQwlOrhSvowK_l5-eR71Wvf4jvw.woff2) format('woff2')",
       fontWeight: "bold",
       fontStyle: "italic",
+      fontDisplay: "swap",
     },
     {
       fontFamily: "Raleway",
       src: "url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaorCIPrE.woff2) format('woff2')",
+      fontDisplay: "swap",
     },
     {
       fontFamily: "Raleway",
       src: "url(https://fonts.gstatic.com/s/raleway/v26/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4WjMDrMfIA.woff2) format('woff2')",
       fontStyle: "italic",
+      fontDisplay: "swap",
     },
     {
       fontFamily: "Raleway",
       src: "url(https://fonts.gstatic.com/s/raleway/v26/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVsEpbCIPrE.woff2) format('woff2')",
       fontWeight: 600,
+      fontDisplay: "swap",
     },
     {
       fontFamily: "Raleway",
       src: "url(https://fonts.gstatic.com/s/raleway/v26/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4bbLDrMfIA.woff2) format('woff2')",
       fontWeight: 600,
       fontStyle: "italic",
+      fontDisplay: "swap",
     },
   ],
   "@global": {
@@ -46,7 +53,7 @@ const useStyles = createUseStyles({
     },
     body: {
       margin: 0,
-      backgroundColor: colors.mainBg,
+      backgroundColor: colors.mainBackground,
       color: colors.mainText,
       fontFamily: fonts.primary,
       lineHeight: 1.5,
@@ -122,5 +129,3 @@ const useStyles = createUseStyles({
     paddingBottom: 100,
   },
 });
-
-export default useStyles;

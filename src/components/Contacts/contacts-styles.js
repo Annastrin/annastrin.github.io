@@ -1,7 +1,7 @@
 import { createUseStyles } from "react-jss";
 import { colors } from "../../styleguide";
 
-const useStyles = createUseStyles({
+export const useStyles = createUseStyles({
   contacts: {
     textAlign: "center",
     "& p": {
@@ -21,5 +21,3 @@ const useStyles = createUseStyles({
     },
   },
 });
-
-export default useStyles;

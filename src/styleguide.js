@@ -6,16 +6,27 @@ export const fonts = {
   accent: "Gwendolyn, 'Brush Script MT', cursive",
 };
 
-export const colors = {
-  mainBg: "#fafafa",
-  mainText: "#212121",
-  accent1: "#5680e9",
-  accent2: "#8860D0",
-  accent3: "#5ab9ea",
+const palette = {
   white: "#ffffff",
+  lightGrey: "#fafafa",
   grey: "#bdbdbd",
+  darkGrey: "#212121",
+  blue: "#5680e9",
+  violet: "#8860D0",
+  lightBlue: "#5ab9ea",
 };
 
-export const bp = {
+export const colors = {
+  mainBackground: palette.lightGrey,
+  mainText: palette.darkGrey,
+  secondaryBackground: palette.white,
+  secondaryText: palette.white,
+  accent1: palette.blue,
+  accent2: palette.violet,
+  accent3: palette.lightBlue,
+  boxShadow: palette.grey,
+};
+
+export const breakpoints = {
   big: "@media screen and (min-width: 920px)",
 };

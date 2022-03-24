@@ -1,6 +1,6 @@
 import { FiExternalLink } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
-import useStyles from "./project-styles";
+import { useStyles } from "./project-styles";
 
 function Project(props) {
   const classes = useStyles();
@@ -10,7 +10,7 @@ function Project(props) {
         href={props.link.url}
         target="_blank"
         rel="noreferrer"
-        className={classes.projectImg}
+        className={classes.image}
       >
         {`Visit ${props.name[0].text}`}
         <img
@@ -20,13 +20,11 @@ function Project(props) {
           height={props.img.dimensions.height}
         />
       </a>
-      <div className={classes.projectContent}>
-        <h3 className={classes.projectName}>{props.name[0].text}</h3>
-        <div className={classes.projectDescription}>
-          {props.description[0].text}
-        </div>
-        <p className={classes.projectSubheading}>Technologies:</p>
-        <ul className={classes.projectTechnologies}>
+      <div className={classes.content}>
+        <h3>{props.name[0].text}</h3>
+        <div className={classes.description}>{props.description[0].text}</div>
+        <p className={classes.subheading}>Technologies:</p>
+        <ul className={classes.technologies}>
           {props.technologies.map((el, i) => (
             <li key={i}>{el.text}</li>
           ))}
@@ -36,7 +34,7 @@ function Project(props) {
             href={props.link.url}
             target="_blank"
             rel="noreferrer"
-            className={classes.projectLink}
+            className={classes.link}
           >
             Website
             <FiExternalLink />
@@ -45,7 +43,7 @@ function Project(props) {
             href={props.code.url}
             target="_blank"
             rel="noreferrer"
-            className={classes.projectLink}
+            className={classes.link}
           >
             Code
             <FaGithub />

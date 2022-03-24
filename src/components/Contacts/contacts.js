@@ -1,6 +1,6 @@
 import { FaLinkedin } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import useStyles from "./contacts-styles";
+import { useStyles } from "./contacts-styles";
 
 function Contacts() {
   const classes = useStyles();
