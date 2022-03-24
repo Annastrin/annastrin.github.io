@@ -11,8 +11,13 @@ export const useStyles = createUseStyles({
   },
   socials: {
     "& a": {
-      margin: [0, 5],
+      margin: [0, 10],
       fontSize: 0,
+      transition: "all 0.3s",
+
+      "&:hover": {
+        opacity: 0.7,
+      },
 
       "& svg": {
         fontSize: 34,
