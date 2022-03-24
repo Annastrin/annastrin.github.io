@@ -5,7 +5,7 @@ export const useStyles = createUseStyles({
   contacts: {
     textAlign: "center",
     "& p": {
-      fontSize: 20,
+      fontSize: "1.25rem",
       marginBottom: 25,
     },
   },
@@ -20,7 +20,7 @@ export const useStyles = createUseStyles({
       },
 
       "& svg": {
-        fontSize: 34,
+        fontSize: "2.125rem",
         color: colors.accent1,
       },
     },

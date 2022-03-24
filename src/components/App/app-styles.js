@@ -51,6 +51,9 @@ export const useStyles = createUseStyles({
     "*": {
       boxSizing: "border-box",
     },
+    html: {
+      fontSize: "16px",
+    },
     body: {
       margin: 0,
       backgroundColor: colors.mainBackground,
@@ -77,15 +80,15 @@ export const useStyles = createUseStyles({
       fontWeight: 600,
     },
     h1: {
-      fontSize: 48,
+      fontSize: "3rem",
       marginBottom: 30,
     },
     h2: {
-      fontSize: 32,
+      fontSize: "2rem",
       marginBottom: 30,
     },
     h3: {
-      fontSize: 26,
+      fontSize: "1.625rem",
     },
     a: {
       color: colors.mainText,
@@ -115,7 +118,7 @@ export const useStyles = createUseStyles({
         width: "10px",
         height: "16px",
         marginTop: "-8px",
-        fontSize: 10,
+        fontSize: "0.625rem",
         color: colors.accent3,
       },
     },

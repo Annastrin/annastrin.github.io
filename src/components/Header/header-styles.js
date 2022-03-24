@@ -9,7 +9,7 @@ export const useStyles = createUseStyles({
   },
   logo: {
     fontFamily: fonts.accent,
-    fontSize: 60,
+    fontSize: "3.75rem",
     color: colors.accent2,
   },
   nav: {
@@ -20,7 +20,7 @@ export const useStyles = createUseStyles({
     display: "block",
     margin: "0 10px",
     padding: "5px 0",
-    fontSize: 18,
+    fontSize: "1.25rem",
     transition: "all 0.3s",
 
     "&:hover": {

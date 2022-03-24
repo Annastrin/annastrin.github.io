@@ -11,7 +11,7 @@ export const useStyles = createUseStyles({
     backgroundColor: colors.accent1,
     backgroundImage: `linear-gradient(to right, ${colors.accent1}, ${colors.accent2})`,
     color: colors.secondaryText,
-    fontSize: 20,
+    fontSize: "1.25rem",
   },
   content: {
     textAlign: "center",
