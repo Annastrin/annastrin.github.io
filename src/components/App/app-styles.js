@@ -14,20 +14,17 @@ export const useStyles = createUseStyles({
       fontFamily: "Gwendolyn",
       src: `url(${Gwendolyn}) format('truetype')`,
       fontWeight: "bold",
-      fontDisplay: "swap",
     },
     {
       fontFamily: "Merriweather",
       src: `url(${MerriweatherItalic}) format('truetype')`,
       fontStyle: "italic",
-      fontDisplay: "swap",
     },
     {
       fontFamily: "Merriweather",
       src: `url(${MerriweatherBoldItalic}) format('truetype')`,
       fontWeight: "bold",
       fontStyle: "italic",
-      fontDisplay: "swap",
     },
     {
       fontFamily: "Raleway",
@@ -37,20 +34,17 @@ export const useStyles = createUseStyles({
       fontFamily: "Raleway",
       src: `url(${RalewayItalic}) format('truetype')`,
       fontStyle: "italic",
-      fontDisplay: "swap",
     },
     {
       fontFamily: "Raleway",
       src: `url(${RalewaySemiBold}) format('truetype')`,
       fontWeight: 600,
-      fontDisplay: "swap",
     },
     {
       fontFamily: "Raleway",
       src: `url(${RalewaySemiBoldItalic}) format('truetype')`,
       fontWeight: 600,
       fontStyle: "italic",
-      fontDisplay: "swap",
     },
   ],
   "@global": {
