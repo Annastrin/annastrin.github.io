@@ -128,7 +128,4 @@ export const useStyles = createUseStyles({
       height: "auto",
     },
   },
-  app: {
-    paddingBottom: 100,
-  },
 });

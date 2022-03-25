@@ -3,6 +3,7 @@ import { colors } from "../../styleguide";
 
 export const useStyles = createUseStyles({
   contacts: {
+    paddingBottom: 60,
     textAlign: "center",
     "& p": {
       fontSize: "1.25rem",

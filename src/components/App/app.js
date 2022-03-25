@@ -3,13 +3,14 @@ import { Hero } from "../Hero";
 import { About } from "../About";
 import { ProjectsList } from "../ProjectsList";
 import { Contacts } from "../Contacts";
+import { Footer } from "../Footer";
 import { useStyles } from "./app-styles";
 
 function App() {
-  const classes = useStyles();
+  useStyles();
 
   return (
-    <div className={classes.app}>
+    <div>
       <Header />
       <main>
         <Hero />
@@ -17,6 +18,7 @@ function App() {
         <ProjectsList />
         <Contacts />
       </main>
+      <Footer />
     </div>
   );
 }
