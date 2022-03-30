@@ -16,12 +16,14 @@ function ProjectsList() {
           prismicProjects.map((el) => (
             <Project
               key={el.id}
-              img={el.data.project_image}
-              name={el.data.project_name}
-              description={el.data.project_description}
+              image={el.data.project_image.url}
+              imageWidth={el.data.project_image.dimensions.width}
+              imageHeight={el.data.project_image.dimensions.height}
+              name={el.data.project_name[0].text[0].text}
+              description={el.data.project_description[0].text}
               technologies={el.data.project_technologies}
-              link={el.data.project_website_link}
-              code={el.data.project_code_link}
+              link={el.data.project_website_link.url}
+              code={el.data.project_code_link.url}
             />
           ))}
       </div>

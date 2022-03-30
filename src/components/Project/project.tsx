@@ -3,22 +3,36 @@ import { FaGithub } from "react-icons/fa";
 import { ExternalLink } from "../ExternalLink";
 import { useStyles } from "./project-styles";
 
-function Project(props) {
+interface ProjectProjs {
+  key: string;
+  image: string;
+  imageWidth: string;
+  imageHeight: string;
+  name: string;
+  description: string;
+  technologies: {
+    text: string;
+  }[];
+  link: string;
+  code: string;
+}
+
+function Project(props: ProjectProjs) {
   const classes = useStyles();
   return (
     <div className={classes.project}>
-      <ExternalLink href={props.link.url} className={classes.image}>
-        {`Visit ${props.name[0].text}`}
+      <ExternalLink href={props.link} className={classes.image}>
+        {`Visit ${props.name}`}
         <img
-          src={props.img.url}
+          src={props.image}
           alt=""
-          width={props.img.dimensions.width}
-          height={props.img.dimensions.height}
+          width={props.imageWidth}
+          height={props.imageHeight}
         />
       </ExternalLink>
       <div className={classes.content}>
-        <h3>{props.name[0].text}</h3>
-        <div className={classes.description}>{props.description[0].text}</div>
+        <h3>{props.name}</h3>
+        <div className={classes.description}>{props.description}</div>
         <p className={classes.subheading}>Technologies:</p>
         <ul className={classes.technologies}>
           {props.technologies.map((el, i) => (
@@ -26,11 +40,11 @@ function Project(props) {
           ))}
         </ul>
         <div>
-          <ExternalLink href={props.link.url} className={classes.link}>
+          <ExternalLink href={props.link} className={classes.link}>
             Website
             <FiExternalLink />
           </ExternalLink>
-          <ExternalLink href={props.code.url} className={classes.link}>
+          <ExternalLink href={props.code} className={classes.link}>
             Code
             <FaGithub />
           </ExternalLink>

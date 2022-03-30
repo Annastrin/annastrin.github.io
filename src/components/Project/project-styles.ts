@@ -61,7 +61,7 @@ export const useStyles = createUseStyles({
       transition: "all 0.3s",
     },
   },
-  content: {}, //it's needed to use in breakpoint below
+  content: {}, // it's needed to use in breakpoint below
   [breakpoints.big]: {
     project: {
       display: "flex",

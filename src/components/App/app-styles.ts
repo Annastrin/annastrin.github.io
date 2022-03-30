@@ -110,7 +110,7 @@ export const useStyles = createUseStyles({
       },
 
       "& li::before": {
-        content: '"\\25A0"',
+        content: "'\\25A0'",
         display: "inline-block",
         position: "absolute",
         top: "50%",
