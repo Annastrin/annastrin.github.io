@@ -1,6 +1,6 @@
 import { useStyles } from "./hero-styles";
 
-function Hero() {
+const Hero = () => {
   const classes = useStyles();
   return (
     <div className={classes.hero}>
@@ -12,6 +12,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;

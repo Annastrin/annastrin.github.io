@@ -3,7 +3,7 @@ import { FiMail } from "react-icons/fi";
 import { ExternalLink } from "../ExternalLink";
 import { useStyles } from "./contacts-styles";
 
-function Contacts() {
+const Contacts = () => {
   const classes = useStyles();
   return (
     <section className={classes.contacts} id="contacts">
@@ -21,6 +21,6 @@ function Contacts() {
       </div>
     </section>
   );
-}
+};
 
 export default Contacts;

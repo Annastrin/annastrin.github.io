@@ -2,7 +2,7 @@ import { useAllPrismicDocumentsByType } from "@prismicio/react";
 import { Project } from "../Project";
 import { useStyles } from "./projects-list-styles";
 
-function ProjectsList() {
+const ProjectsList = () => {
   const [prismicProjects] = useAllPrismicDocumentsByType("project", {
     orderings: ["my.project.project_creation_date desc"],
   });
@@ -29,6 +29,6 @@ function ProjectsList() {
       </div>
     </section>
   );
-}
+};
 
 export default ProjectsList;

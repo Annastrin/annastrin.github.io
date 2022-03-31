@@ -3,7 +3,7 @@ import { FiExternalLink } from "react-icons/fi";
 import { ExternalLink } from "../ExternalLink";
 import { useStyles } from "./footer-styles";
 
-function Footer() {
+const Footer = () => {
   const classes = useStyles();
   const currentYear = new Date().getFullYear();
 
@@ -15,6 +15,6 @@ function Footer() {
       </ExternalLink>
     </footer>
   );
-}
+};
 
 export default Footer;

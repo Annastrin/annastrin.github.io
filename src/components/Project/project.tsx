@@ -17,7 +17,7 @@ interface ProjectProjs {
   code: string;
 }
 
-function Project(props: ProjectProjs) {
+const Project = (props: ProjectProjs) => {
   const classes = useStyles();
   return (
     <div className={classes.project}>
@@ -52,6 +52,6 @@ function Project(props: ProjectProjs) {
       </div>
     </div>
   );
-}
+};
 
 export default Project;

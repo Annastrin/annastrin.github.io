@@ -6,7 +6,7 @@ import { Contacts } from "../Contacts";
 import { Footer } from "../Footer";
 import { useStyles } from "./app-styles";
 
-function App() {
+const App = () => {
   useStyles();
 
   return (
@@ -21,6 +21,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;

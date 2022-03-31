@@ -1,7 +1,7 @@
 import { useSinglePrismicDocument, PrismicRichText } from "@prismicio/react";
 import { useStyles } from "./about-styles";
 
-function About() {
+const About = () => {
   const [skills] = useSinglePrismicDocument("skills");
   const [education] = useSinglePrismicDocument("education");
   const [experience] = useSinglePrismicDocument("experience");
@@ -32,6 +32,6 @@ function About() {
       </div>
     </section>
   );
-}
+};
 
 export default About;
