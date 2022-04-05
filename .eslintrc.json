@@ -22,6 +22,7 @@
     ],
     "rules": {
         "quotes": [2, "double", {"allowTemplateLiterals": true}],
+        "operator-linebreak": "off",
         "import/extensions": [
             "error",
             "ignorePackages",

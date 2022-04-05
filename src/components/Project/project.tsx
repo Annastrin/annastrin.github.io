@@ -4,7 +4,6 @@ import { ExternalLink } from "../ExternalLink";
 import { useStyles } from "./project-styles";
 
 interface ProjectProjs {
-  key: string;
   image: string;
   imageWidth: string;
   imageHeight: string;
@@ -19,32 +18,38 @@ interface ProjectProjs {
 
 const Project = (props: ProjectProjs) => {
   const classes = useStyles();
+  const {
+    image,
+    imageWidth,
+    imageHeight,
+    name,
+    description,
+    technologies,
+    link,
+    code,
+  } = props;
+
   return (
     <div className={classes.project}>
-      <ExternalLink href={props.link} className={classes.image}>
-        {`Visit ${props.name}`}
-        <img
-          src={props.image}
-          alt=""
-          width={props.imageWidth}
-          height={props.imageHeight}
-        />
+      <ExternalLink href={link} className={classes.image}>
+        {`Visit ${name}`}
+        <img src={image} alt="" width={imageWidth} height={imageHeight} />
       </ExternalLink>
       <div className={classes.content}>
-        <h3>{props.name}</h3>
-        <div className={classes.description}>{props.description}</div>
+        <h3>{name}</h3>
+        <div className={classes.description}>{description}</div>
         <p className={classes.subheading}>Technologies:</p>
         <ul className={classes.technologies}>
-          {props.technologies.map((el, i) => (
-            <li key={i}>{el.text}</li>
+          {technologies.map((el) => (
+            <li key={el.text}>{el.text}</li>
           ))}
         </ul>
         <div>
-          <ExternalLink href={props.link} className={classes.link}>
+          <ExternalLink href={link} className={classes.link}>
             Website
             <FiExternalLink />
           </ExternalLink>
-          <ExternalLink href={props.code} className={classes.link}>
+          <ExternalLink href={code} className={classes.link}>
             Code
             <FaGithub />
           </ExternalLink>
