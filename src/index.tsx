@@ -11,7 +11,7 @@ ReactDOM.render(
       <App />
     </PrismicProvider>
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById("root") // eslint-disable-line comma-dangle
 );
 
 // If you want to start measuring performance in your app, pass a function
