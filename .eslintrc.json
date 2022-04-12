@@ -39,7 +39,11 @@
                 "namedComponents": "arrow-function"
             }],
         "react/jsx-one-expression-per-line": "off",
-        "react/require-default-props": "off"
+        "react/require-default-props": "off",
+        "comma-dangle": [
+            1,
+            "always-multiline"
+        ]
     },
     "settings": {
         "import/resolver": {
