@@ -7,8 +7,10 @@ This project is a developer's portfolio containing information about my skills a
 ## Technologies
 
 - React
+- TypeScript
 - React-JSS
 - Prismic
+- Storybook
 
 ## Available Scripts
 
