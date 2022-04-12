@@ -1,8 +1,16 @@
 version: 2.1
 orbs:
   node: circleci/node@5.0.2
+jobs:
+  lint-and-build:
+    docker:
+      - image: cimg/node:16.7.0
+    steps:
+      - checkout
+      - node/install-packages
+      - run: npm run lint
+      - run: npm run build
 workflows:
-  run-npm-command:
+  lint-and-build-portfolio:
     jobs:
-      - node/run:
-          npm-run: build
+      - lint-and-build
