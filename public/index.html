@@ -28,7 +28,10 @@
         dataLayer.push(arguments);
       }
       gtag('js', new Date());
-      gtag('config', 'G-3BLPFLSSHR', { cookie_flags: 'SameSite=None;Secure' });
+      gtag('config', 'G-3BLPFLSSHR', {
+        cookie_domain: 'annastrin.github.io',
+        cookie_flags: 'SameSite=None; Secure',
+      });
     </script>
   </head>
   <body>
