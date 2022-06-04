@@ -14,7 +14,7 @@ This project is a developer's portfolio containing information about my skills a
 
 ## Available Scripts
 
-### `yarn start`
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -22,7 +22,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -30,6 +30,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-### `yarn deploy`
+### `npm run deploy`
 
 Publish files in the `build` folder to a `gh-pages` branch on GitHub.
